@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DateComparer", "DateComparer\DateComparer.csproj", "{AE607088-9949-42FE-AAFB-2423AA36EDB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVC.Validation.DateComparer", "MVC.Validation.DateComparer\MVC.Validation.DateComparer.csproj", "{E633AAA9-79FC-4D7F-8B77-1CC0A39568CA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AE607088-9949-42FE-AAFB-2423AA36EDB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE607088-9949-42FE-AAFB-2423AA36EDB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE607088-9949-42FE-AAFB-2423AA36EDB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE607088-9949-42FE-AAFB-2423AA36EDB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E633AAA9-79FC-4D7F-8B77-1CC0A39568CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E633AAA9-79FC-4D7F-8B77-1CC0A39568CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E633AAA9-79FC-4D7F-8B77-1CC0A39568CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E633AAA9-79FC-4D7F-8B77-1CC0A39568CA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
