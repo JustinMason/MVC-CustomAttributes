@@ -15,7 +15,7 @@ namespace DateComparer.Models
         public string Name { get; set; }
 
         [Display(Order=1, Name="Birthday") ]
-        [DateComparer(MaxDateAddDaysFromNow=0, MinDateSelector="PropertyDate")]
+        [DateComparer(MaxDateAddDaysFromNow=0, MinDateSelector="PropertyDate")] //Must be less than Now and Greater than the sibling property PropertyDate
         public DateTime BirthDate { get; set; }
 
         [HiddenInput(DisplayValue=false)]

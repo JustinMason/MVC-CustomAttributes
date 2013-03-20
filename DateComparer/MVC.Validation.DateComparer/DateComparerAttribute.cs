@@ -41,11 +41,11 @@ namespace MVC.Validation.DateComparer
         }
 
         /// <summary>
-        /// If MinDateAddDaysFromNow is not set then this is used to JQuery select the Property that must be a date from the page
+        /// The Proprty that JQuery and Reflection will use to get the value from the view model or page element
         /// </summary>
         public string MinDateSelector { get; set; }
         /// <summary>
-        /// If MaxDateAddDaysFromNow is not set then this is used to JQuery select the Property that must be a date from the page
+        /// The Proprty that JQuery and Reflection will use to get the value from the view model or page element
         /// </summary>
         public string MaxDateSelector { get; set; }
 

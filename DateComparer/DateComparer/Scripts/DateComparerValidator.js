@@ -88,7 +88,7 @@
 
             var isAm = yearSplit[2] == "AM";
             
-            var date = new Date(year, day, month, isAm ? hour : hour + 12, minute, second );
+            var date = new Date(year, month-1, day, isAm ? hour : hour + 12, minute, second);
 
             return date;
         } else {
